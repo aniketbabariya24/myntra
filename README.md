@@ -67,19 +67,19 @@
 # Schema : 
 
 - User 
-      name: { type: String, required: true, maxLength: 15, minLength: 4 },
-    email: {
+      -name: { type: String, required: true, maxLength: 15, minLength: 4 },
+     -email: {
       type: String,
       required: true,
       unique: true,
       validate: validator.isEmail,
     },
-    pass: {
+    -pass: {
       type: String,
       required: true,
       minLength: 4,
     },
-    phone: {
+    -phone: {
       type: String,
       required: true,
       minLength: 10,
@@ -87,24 +87,24 @@
 
 
 - Products 
-    image_url: { type: Object, required: true },
-    brand: { type: String, required: true },
-    subtext: { type: String, required: true },
-    price: { type: Number, required: true },
-    mrp: { type: Number, required: true },
-    offer: { type: Number, required: true },
-    category: { type: String, required: true },
-    gender: { type: String },
-    rating:{type:Number},
-    discount:{type:Number}
+    -image_url: { type: Object, required: true },
+   - brand: { type: String, required: true },
+    -subtext: { type: String, required: true },
+   - price: { type: Number, required: true },
+   - mrp: { type: Number, required: true },
+    -offer: { type: Number, required: true },
+   - category: { type: String, required: true },
+   - gender: { type: String },
+   - rating:{type:Number},
+   - discount:{type:Number}
 
 - cart 
-     userID: { type: String, required: true },
-  title: { type: String, required: true },
-  image: { type: String, required: true },
-  price: { type: Number, required: true },
-  desc: { type: String, required: true },
-  qty: { type: Number, required: true },
+   -  userID: { type: String, required: true },
+ - title: { type: String, required: true },
+ - image: { type: String, required: true },
+ - price: { type: Number, required: true },
+ - desc: { type: String, required: true },
+ - qty: { type: Number, required: true },
 
 <br>
 
@@ -148,30 +148,28 @@ Start the server
 <br>
 
 <h2>HomePage</h2>
-<img src="https://github.com/aniketbabariya24/tough-health-8180/assets/112626195/e8d835dc-e346-41f9-9e29-e9d448fc39d7" alt="">
+<img src="https://github.com/aniketbabariya24/myntra/assets/112626195/1ff84aae-c04f-4230-a995-b82812121447" alt="">
 
 <br>
 
 <h2>Sign In / Sign Up page</h2>
-<img src="https://github.com/aniketbabariya24/tough-health-8180/assets/112626195/d6d4a31a-0287-413e-b3e5-825c9ba4c477" alt="">
+<img src="https://github.com/aniketbabariya24/myntra/assets/112626195/9e0692f5-0d72-4668-95f1-98cc3f431540" alt="">
+
 
 <br>
 
-<h2>Service Page</h2>
-<img src="https://github.com/aniketbabariya24/tough-health-8180/assets/112626195/202ad3b2-8f87-4f60-8c06-1b1ede6c5748" alt="">
+<h2>Product Page</h2>
+<img src="https://github.com/aniketbabariya24/myntra/assets/112626195/62e60589-3b06-4839-ba45-8e1fa4ccae1d" alt="">
+
 
 <br>
 
-<h2>Doctors Page</h2>
-<img src="https://github.com/aniketbabariya24/tough-health-8180/assets/112626195/ec4b0cfd-a109-4fd5-b01b-f7f2adff2d7f" alt="">
+<h2>Wishlist Page</h2>
+<img src="https://github.com/aniketbabariya24/myntra/assets/112626195/c6b76f31-6426-4562-b00e-41188a6b7802" alt="">
 
 <br>
 
-<h2>Appoinment Book Page</h2>
-<img src="https://github.com/aniketbabariya24/tough-health-8180/assets/112626195/6dcca0dd-bf38-4db5-a7c3-7eeb11097ec4" alt="">
+<h2>Cart Page</h2>
+<img src="https://github.com/aniketbabariya24/myntra/assets/112626195/ccb99bb1-3d42-45e8-a21a-cc77c3bbf5a7" alt="">
 
 <br>
-
-<h2>Admin Page</h2>
-<img src="https://github.com/aniketbabariya24/tough-health-8180/assets/112626195/c7f9683e-e933-467b-b792-02007a1154bb" alt="">
-
