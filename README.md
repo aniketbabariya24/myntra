@@ -28,16 +28,16 @@
 
 # Requirements : 
 
-- User can login and sign up
+- User can log in and sign up
     -Used Bcrypt and Jsonwebtoken
 - User can visit pages 
-- User can see products 
+- Users can see products 
 - User can add products to wishlist
-    - User can view vishlist 
-    - User add products from wishlist to cart
-    - User can cancel product
-    - User can place order
-    - User can pay amount
+    - User can view wishlist 
+    - User adds products from wishlist to cart
+    - User can cancel a product
+    - User can place an order
+    - User can pay the amount
 - Logout 
 
 <br>
@@ -72,7 +72,7 @@
       type: String,
       required: true,
       unique: true,
-      validate: validator.isEmail,
+      validate validator.isEmail,
     },
     - pass: {
       type: String,
@@ -108,16 +108,6 @@
 
 <br>
 
-
-# API EndPoints :
-
-<h3>
-    <strong>
-      <a href="https://dent-care-backend-aa29.onrender.com/api-docs" target="_blank">Swagger Docs for Api</a>
-    </strong>
-</h3>
-
-<br>
 
 ## Run Locally
 
