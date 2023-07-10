@@ -67,19 +67,19 @@
 # Schema : 
 
 - User 
-      -name: { type: String, required: true, maxLength: 15, minLength: 4 },
-     -email: {
+      - name: { type: String, required: true, maxLength: 15, minLength: 4 },
+     - email: {
       type: String,
       required: true,
       unique: true,
       validate: validator.isEmail,
     },
-    -pass: {
+    - pass: {
       type: String,
       required: true,
       minLength: 4,
     },
-    -phone: {
+    - phone: {
       type: String,
       required: true,
       minLength: 10,
@@ -87,9 +87,9 @@
 
 
 - Products 
-    -image_url: { type: Object, required: true },
+    - image_url: { type: Object, required: true },
    - brand: { type: String, required: true },
-    -subtext: { type: String, required: true },
+    - subtext: { type: String, required: true },
    - price: { type: Number, required: true },
    - mrp: { type: Number, required: true },
     -offer: { type: Number, required: true },
